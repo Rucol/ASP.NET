@@ -1,0 +1,13 @@
+﻿@using BikeRentalSystemGr2B.ViewModels;
+@model IEnumerable<BikeDetailViewModel>
+
+<h2 style="text-align: center;">@ViewBag.Nazwa</h2>
+<p>@ViewBag.Opis</p>
+
+@foreach(var item in Model)
+{
+    <li>
+
+        <a asp-controller="Home" asp-action="Detail" asp-route-id="@item.Id">@item.Producer - @item.Model</a>
+    </li>
+}

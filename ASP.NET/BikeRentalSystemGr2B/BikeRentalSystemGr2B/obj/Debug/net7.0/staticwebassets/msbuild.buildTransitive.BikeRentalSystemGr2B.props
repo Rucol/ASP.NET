@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BikeRentalSystemGr2B.props" />
+</Project>
