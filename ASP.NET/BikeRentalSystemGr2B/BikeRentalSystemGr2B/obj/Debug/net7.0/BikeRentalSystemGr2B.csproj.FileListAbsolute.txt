@@ -1,0 +1,60 @@
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\appsettings.json
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\BikeRentalSystemGr2B.staticwebassets.runtime.json
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\BikeRentalSystemGr2B.exe
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\BikeRentalSystemGr2B.deps.json
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\BikeRentalSystemGr2B.runtimeconfig.json
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\BikeRentalSystemGr2B.dll
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\BikeRentalSystemGr2B.pdb
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.AssemblyInfoInputs.cache
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.AssemblyInfo.cs
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.csproj.CoreCompileInputs.cache
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.RazorAssemblyInfo.cache
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.RazorAssemblyInfo.cs
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets\msbuild.BikeRentalSystemGr2B.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets\msbuild.build.BikeRentalSystemGr2B.props
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BikeRentalSystemGr2B.props
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BikeRentalSystemGr2B.props
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\scopedcss\bundle\BikeRentalSystemGr2B.styles.css
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\scopedcss\projectbundle\BikeRentalSystemGr2B.bundle.scp.css
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.dll
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\refint\BikeRentalSystemGr2B.dll
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.pdb
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.genruntimeconfig.cache
+C:\Users\x390\Desktop\AK\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\ref\BikeRentalSystemGr2B.dll
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\appsettings.json
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\BikeRentalSystemGr2B.staticwebassets.runtime.json
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\BikeRentalSystemGr2B.exe
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\BikeRentalSystemGr2B.deps.json
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\BikeRentalSystemGr2B.runtimeconfig.json
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\BikeRentalSystemGr2B.dll
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\bin\Debug\net7.0\BikeRentalSystemGr2B.pdb
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.AssemblyInfoInputs.cache
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.AssemblyInfo.cs
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.csproj.CoreCompileInputs.cache
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.RazorAssemblyInfo.cache
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.RazorAssemblyInfo.cs
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets\msbuild.BikeRentalSystemGr2B.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets\msbuild.build.BikeRentalSystemGr2B.props
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BikeRentalSystemGr2B.props
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BikeRentalSystemGr2B.props
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\scopedcss\bundle\BikeRentalSystemGr2B.styles.css
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\scopedcss\projectbundle\BikeRentalSystemGr2B.bundle.scp.css
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.dll
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\refint\BikeRentalSystemGr2B.dll
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.pdb
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\BikeRentalSystemGr2B.genruntimeconfig.cache
+C:\Users\x390\Desktop\Semestr 6\ASP.NET\BikeRentalSystemGr2B\BikeRentalSystemGr2B\obj\Debug\net7.0\ref\BikeRentalSystemGr2B.dll
