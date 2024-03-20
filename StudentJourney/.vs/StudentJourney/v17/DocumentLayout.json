@@ -1,97 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\",
+  "WorkspaceRootPath": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\data\\journeycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:data\\journeycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\controllers\\enrollmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:controllers\\enrollmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\enrollments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\enrollments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\enrollments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\enrollments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\enrollments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\enrollments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\enrollments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\enrollments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\controllers\\journeyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:controllers\\journeyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\models\\journey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:models\\journey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\journeys\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\journeys\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\data\\journeycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:data\\journeycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\controllers\\enrollmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:controllers\\enrollmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\controllers\\journeyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:controllers\\journeyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\models\\journey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:models\\journey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\journeys\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\journeys\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\x390\\desktop\\semestr 6\\asp.net\\studentjourney\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -102,306 +114,335 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Enrollments\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Index.cshtml",
-              "RelativeToolTip": "Views\\Enrollments\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Students\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Details.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Students\\Details.cshtml",
+              "RelativeToolTip": "Views\\Students\\Details.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAlwCEAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T15:11:11.538Z",
+              "WhenOpened": "2024-03-20T13:36:07.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Enrollments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Details.cshtml",
+              "RelativeToolTip": "Views\\Enrollments\\Details.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAlwBYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T13:36:00.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EnrollmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\EnrollmentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EnrollmentsController.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\EnrollmentsController.cs",
-              "RelativeToolTip": "Controllers\\EnrollmentsController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:05:38.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JourneyContext.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Data\\JourneyContext.cs",
-              "RelativeDocumentMoniker": "Data\\JourneyContext.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Data\\JourneyContext.cs",
-              "RelativeToolTip": "Data\\JourneyContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:40:56.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DBInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Data\\DBInitializer.cs",
-              "RelativeDocumentMoniker": "Data\\DBInitializer.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Data\\DBInitializer.cs",
-              "RelativeToolTip": "Data\\DBInitializer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:48:47.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Startup.cs",
-              "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Startup.cs",
-              "RelativeToolTip": "Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:45:29.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAByAAAA",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Enrollments\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Enrollments\\Delete.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAlwBcAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T12:21:17.337Z",
+              "WhenOpened": "2024-03-20T13:35:54.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Students\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T13:35:01.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Program.cs",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowA8AAAAMAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T12:55:44.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T13:11:19.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\appsettings.json",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-03-19T12:46:56.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Students.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Students.cs",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Models\\Students.cs",
               "RelativeDocumentMoniker": "Models\\Students.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Students.cs",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Models\\Students.cs",
               "RelativeToolTip": "Models\\Students.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T12:36:03.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
+              "Title": "JourneyContext.cs",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Data\\JourneyContext.cs",
+              "RelativeDocumentMoniker": "Data\\JourneyContext.cs",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Data\\JourneyContext.cs",
+              "RelativeToolTip": "Data\\JourneyContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:40:56.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAAwAsAAAABAAAA",
+              "ViewState": "AQIAAFgAAAAAAAAAAIA9wGgAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T14:38:04.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Journey.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Journey.cs",
-              "RelativeDocumentMoniker": "Models\\Journey.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Journey.cs",
-              "RelativeToolTip": "Models\\Journey.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:38:46.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Enrollment.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Enrollment.cs",
-              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Enrollment.cs",
-              "RelativeToolTip": "Models\\Enrollment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:37:15.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Students\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Students\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Students\\Delete.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwCIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T14:55:15.817Z",
+              "WhenOpened": "2024-03-19T14:39:35.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "JourneysController.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\JourneysController.cs",
-              "RelativeDocumentMoniker": "Controllers\\JourneysController.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\JourneysController.cs",
-              "RelativeToolTip": "Controllers\\JourneysController.cs",
-              "ViewState": "AQIAAJsAAAAAAAAAAAAQwLkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T14:46:34.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Enrollments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Index.cshtml",
+              "RelativeToolTip": "Views\\Enrollments\\Index.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAYwB4AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T14:55:38.188Z",
+              "WhenOpened": "2024-03-19T15:11:11.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAByAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T12:25:16.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T12:21:17.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:49:40.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T12:21:12.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Journeys\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Journeys\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Journeys\\Index.cshtml",
-              "RelativeToolTip": "Views\\Journeys\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBoAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T14:47:39.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Students\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Index.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Students\\Index.cshtml",
               "RelativeToolTip": "Views\\Students\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAlwCkAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-19T14:40:37.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Students\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Create.cshtml",
-              "RelativeToolTip": "Views\\Students\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T14:39:27.067Z",
+              "DocumentIndex": 10,
+              "Title": "DBInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Data\\DBInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DBInitializer.cs",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Data\\DBInitializer.cs",
+              "RelativeToolTip": "Data\\DBInitializer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:48:47.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Students\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Students\\Delete.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 14,
+              "Title": "EnrollmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Controllers\\EnrollmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EnrollmentsController.cs",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Controllers\\EnrollmentsController.cs",
+              "RelativeToolTip": "Controllers\\EnrollmentsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T15:05:38.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:11:19.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Journey.cs",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Models\\Journey.cs",
+              "RelativeDocumentMoniker": "Models\\Journey.cs",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Models\\Journey.cs",
+              "RelativeToolTip": "Models\\Journey.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:38:46.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:37:15.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T14:39:35.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T14:55:15.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "JourneysController.cs",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Controllers\\JourneysController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JourneysController.cs",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Controllers\\JourneysController.cs",
+              "RelativeToolTip": "Controllers\\JourneysController.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAQwLkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T14:46:34.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:55:38.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T12:25:16.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:49:40.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T12:21:12.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Journeys\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Journeys\\Index.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Journeys\\Index.cshtml",
+              "RelativeToolTip": "Views\\Journeys\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:47:39.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "Views\\Students\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:39:27.067Z"
             }
           ]
         }

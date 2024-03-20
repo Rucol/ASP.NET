@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
-using ContosoJourney;
 using ContosoUniversity.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace ContosoJourney
 {
@@ -33,29 +33,38 @@ namespace ContosoJourney
             host.Run();
         }
 
-        private static void CreateDbIfNotExists(IHost host)
-        {
-            using (var scope = host.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
-                try
-                {
-                    var context = services.GetRequiredService<JourneyContext>();
-                    DbInitializer.Initialize(context);
-                }
-                catch (Exception ex)
-                {
-                    var logger = services.GetRequiredService<ILogger<Program>>();
-                    logger.LogError(ex, "An error occurred creating the DB.");
-                }
-            }
-        }
-
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.Configure(app =>
+                    {
+                        app.UseRouting();
+
+                        app.UseHttpsRedirection();
+                        app.UseStaticFiles();
+
+                        app.UseAuthentication();
+                        app.UseAuthorization();
+
+                        app.UseEndpoints(endpoints =>
+                        {
+                            endpoints.MapControllerRoute(
+                                name: "default",
+                                pattern: "{controller=Home}/{action=Index}/{id?}");
+                            endpoints.MapRazorPages();
+                        });
+                    });
+                })
+                .ConfigureServices((context, services) =>
+                {
+                    services.AddDbContext<JourneyContext>(options =>
+                        options.UseSqlServer(context.Configuration.GetConnectionString("DefaultConnection")));
+
+                    services.AddDatabaseDeveloperPageExceptionFilter();
+
+                    services.AddControllersWithViews();
+                    services.AddRazorPages();
                 });
     }
 }

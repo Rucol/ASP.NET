@@ -8946,23 +8946,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Xentri\\.nuget\\packages\\": {},
+    "C:\\Users\\x390\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\StudentJourney.csproj",
+      "projectUniqueName": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\StudentJourney.csproj",
       "projectName": "StudentJourney",
-      "projectPath": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\StudentJourney.csproj",
-      "packagesPath": "C:\\Users\\Xentri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\obj\\",
+      "projectPath": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\StudentJourney.csproj",
+      "packagesPath": "C:\\Users\\x390\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\x390\\Desktop\\Semestr 6\\ASP.NET\\StudentJourney\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Xentri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\x390\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8971,6 +8971,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
