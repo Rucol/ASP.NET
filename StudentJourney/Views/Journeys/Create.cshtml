@@ -28,6 +28,16 @@
                 <span asp-validation-for="Cost" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="JourneyDuration" class="control-label"></label>
+                <input asp-for="JourneyDuration" class="form-control" />
+                <span asp-validation-for="JourneyDuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="JourneyDate" class="control-label"></label>
+                <input asp-for="JourneyDate" class="form-control" />
+                <span asp-validation-for="JourneyDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>

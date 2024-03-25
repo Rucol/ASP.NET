@@ -19,14 +19,15 @@ namespace ContosoUniversity.Data
 
             var students = new Student[]
             {
-            new Student{FirstMidName="Carson",LastName="Alexander",EnrollmentDate=DateTime.Parse("2005-09-01")},
-            new Student{FirstMidName="Meredith",LastName="Alonso",EnrollmentDate=DateTime.Parse("2002-09-01")},
-            new Student{FirstMidName="Arturo",LastName="Anand",EnrollmentDate=DateTime.Parse("2003-09-01")},
-            new Student{FirstMidName="Gytis",LastName="Barzdukas",EnrollmentDate=DateTime.Parse("2002-09-01")},
-            new Student{FirstMidName="Yan",LastName="Li",EnrollmentDate=DateTime.Parse("2002-09-01")},
-            new Student{FirstMidName="Peggy",LastName="Justice",EnrollmentDate=DateTime.Parse("2001-09-01")},
-            new Student{FirstMidName="Laura",LastName="Norman",EnrollmentDate=DateTime.Parse("2003-09-01")},
-            new Student{FirstMidName="Nino",LastName="Olivetto",EnrollmentDate=DateTime.Parse("2005-09-01")}
+                 new Student{FirstName="Carson",LastName="Alexander",EnrollmentDate=DateTime.Parse("2005-09-01"), Pesel = "85091912345"},
+                 new Student{FirstName="Meredith",LastName="Alonso",EnrollmentDate=DateTime.Parse("2002-09-01"), Pesel = "02100123456"},
+                 new Student{FirstName="Arturo",LastName="Anand",EnrollmentDate=DateTime.Parse("2003-09-01"), Pesel = "03120134567"},
+                 new Student{FirstName="Gytis",LastName="Barzdukas",EnrollmentDate=DateTime.Parse("2002-09-01"), Pesel = "02050145678"},
+                 new Student{FirstName="Yan",LastName="Li",EnrollmentDate=DateTime.Parse("2002-09-01"), Pesel = "02100156789"},
+                 new Student{FirstName="Peggy",LastName="Justice",EnrollmentDate=DateTime.Parse("2001-09-01"), Pesel = "01030167890"},
+                 new Student{FirstName="Laura",LastName="Norman",EnrollmentDate=DateTime.Parse("2003-09-01"), Pesel = "03060178901"},
+                 new Student{FirstName="Nino",LastName="Olivetto",EnrollmentDate=DateTime.Parse("2005-09-01"), Pesel = "05120189012"}
+
             };
             foreach (Student s in students)
             {
@@ -36,13 +37,14 @@ namespace ContosoUniversity.Data
 
             var Journeys = new Journey[]
             {
-            new Journey{JourneyID=1050,TripName="Paris",Cost=1050},
-            new Journey{JourneyID=4022,TripName="Tokyo",Cost=4022},
-            new Journey{JourneyID=4041,TripName="Rome",Cost=4041},
-            new Journey{JourneyID=1045,TripName="Sydney",Cost=1045},
-            new Journey{JourneyID=3141,TripName="Rio de Janeiro",Cost=2050},
-            new Journey{JourneyID=2021,TripName="Istanbul",Cost=2000},
-            new Journey{JourneyID=2042,TripName="New York City",Cost=2060}
+            new Journey{JourneyID=1050, TripName="Paris", Cost=1050, JourneyDuration=2, JourneyDate=DateTime.Parse("2024-05-14")},
+            new Journey{JourneyID=4022, TripName="Tokyo", Cost=4022, JourneyDuration=3, JourneyDate=DateTime.Parse("2024-07-20")},
+            new Journey{JourneyID=4041, TripName="Rome", Cost=4041, JourneyDuration=4, JourneyDate=DateTime.Parse("2024-08-10")},
+            new Journey{JourneyID=1045, TripName="Sydney", Cost=1045, JourneyDuration=5, JourneyDate=DateTime.Parse("2024-09-05")},
+            new Journey{JourneyID=3141, TripName="Rio de Janeiro", Cost=2050, JourneyDuration=6, JourneyDate=DateTime.Parse("2024-10-15")},
+            new Journey{JourneyID=2021, TripName="Istanbul", Cost=2000, JourneyDuration=7, JourneyDate=DateTime.Parse("2024-11-20")},
+            new Journey{JourneyID=2042, TripName="New York City", Cost=2060, JourneyDuration=8, JourneyDate=DateTime.Parse("2024-12-25")}
+
             };
             foreach (Journey c in Journeys)
             {

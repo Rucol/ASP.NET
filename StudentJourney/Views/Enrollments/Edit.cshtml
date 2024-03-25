@@ -24,6 +24,21 @@
                 <span asp-validation-for="TripID" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Journey.Cost" class="control-label"></label>
+                <input asp-for="Journey.Cost" class="form-control" />
+                <span asp-validation-for="Journey.Cost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Journey.JourneyDuration" class="control-label"></label>
+                <input asp-for="Journey.JourneyDuration" class="form-control" />
+                <span asp-validation-for="Journey.JourneyDuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Journey.JourneyDate" class="control-label"></label>
+                <input asp-for="Journey.JourneyDate" class="form-control" />
+                <span asp-validation-for="Journey.JourneyDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>

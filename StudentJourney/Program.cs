@@ -1,5 +1,6 @@
 using ContosoJourney.Data;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -13,9 +14,19 @@ namespace ContosoJourney
     {
         public static void Main(string[] args)
         {
-            var host = CreateHostBuilder(args).Build();
+            var builder = WebApplication.CreateBuilder(args);
 
-            using (var scope = host.Services.CreateScope())
+            // Add services to the container.
+            builder.Services.AddDbContext<JourneyContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+            builder.Services.AddControllersWithViews();
+            builder.Services.AddRazorPages();
+
+            var app = builder.Build();
+
+            using (var scope = app.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
                 try
@@ -30,41 +41,27 @@ namespace ContosoJourney
                 }
             }
 
-            host.Run();
+            // Configure the HTTP request pipeline.
+            if (!app.Environment.IsDevelopment())
+            {
+                app.UseExceptionHandler("/Error");
+                app.UseHsts();
+            }
+
+            app.UseHttpsRedirection();
+            app.UseStaticFiles();
+            app.UseRouting();
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+            app.MapGet("/hi", () => "Hello!");
+
+            app.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}");
+            app.MapRazorPages();
+
+            app.Run();
         }
-
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.Configure(app =>
-                    {
-                        app.UseRouting();
-
-                        app.UseHttpsRedirection();
-                        app.UseStaticFiles();
-
-                        app.UseAuthentication();
-                        app.UseAuthorization();
-
-                        app.UseEndpoints(endpoints =>
-                        {
-                            endpoints.MapControllerRoute(
-                                name: "default",
-                                pattern: "{controller=Home}/{action=Index}/{id?}");
-                            endpoints.MapRazorPages();
-                        });
-                    });
-                })
-                .ConfigureServices((context, services) =>
-                {
-                    services.AddDbContext<JourneyContext>(options =>
-                        options.UseSqlServer(context.Configuration.GetConnectionString("DefaultConnection")));
-
-                    services.AddDatabaseDeveloperPageExceptionFilter();
-
-                    services.AddControllersWithViews();
-                    services.AddRazorPages();
-                });
     }
 }

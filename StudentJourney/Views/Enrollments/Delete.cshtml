@@ -23,6 +23,30 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Student.StudentID)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Journey)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Journey.TripName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Journey)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Journey.Cost)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Journey)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Journey.JourneyDuration)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Journey)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Journey.JourneyDate)
+        </dd>
     </dl>
     
     <form asp-action="Delete">

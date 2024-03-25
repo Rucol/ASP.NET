@@ -13,10 +13,22 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.TripID)
+                @Html.DisplayNameFor(model => model.JourneyID)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Student)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Journey.Cost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Journey.TripName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Journey.JourneyDuration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Journey.JourneyDate)
             </th>
             <th></th>
         </tr>
@@ -25,10 +37,22 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.TripID)
+                @Html.DisplayFor(modelItem => item.JourneyID)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Student.StudentID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Journey.Cost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Journey.TripName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Journey.JourneyDuration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Journey.JourneyDate)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.JourneyID">Edit</a> |

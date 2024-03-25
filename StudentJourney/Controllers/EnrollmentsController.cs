@@ -48,9 +48,22 @@ namespace StudentJourney.Controllers
         // GET: Enrollments/Create
         public IActionResult Create()
         {
-            ViewData["StudentID"] = new SelectList(_context.Students, "ID", "ID");
+            // Pobranie listy identyfikatorów studentów
+            var studentIds = _context.Students.Select(s => s.StudentID).ToList();
+            var journeyCost = _context.Journeys.Select(s => s.Cost).ToList();
+
+            // Pobranie listy wszystkich wycieczek
+            var trips = _context.Journeys.ToList();
+
+            // Przekazanie list do ViewBag, aby można było je użyć w widoku
+            ViewBag.StudentID = new SelectList(studentIds);
+            ViewBag.TripID = new SelectList(trips, "JourneyID", "TripName");
+            ViewBag.Cost = new SelectList(journeyCost, "Cost");
+            ViewBag.trips = new SelectList(trips);
+
             return View();
         }
+
 
         // POST: Enrollments/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -66,6 +79,7 @@ namespace StudentJourney.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["StudentID"] = new SelectList(_context.Students, "ID", "ID", enrollment.StudentID);
+            ViewData["TripID"] = new SelectList(_context.Journeys, "JourneyID", "TripName", enrollment.TripID);
             return View(enrollment);
         }
 
