@@ -7,6 +7,8 @@ using Microsoft.Extensions.Logging;
 using System;
 using ContosoUniversity.Data;
 using Microsoft.EntityFrameworkCore;
+using StudentJourney.Interfaces;
+using StudentJourney.Repository;
 
 namespace ContosoJourney
 {
@@ -23,6 +25,10 @@ namespace ContosoJourney
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages();
+
+            builder.Services.AddScoped<IEnrollmentRepository, EnrollmentsRepository>();
+            builder.Services.AddScoped<IJourneysRepository, JourneysRepository>();
+            builder.Services.AddScoped<IStudentRepository, StudentsRepository>();
 
             var app = builder.Build();
 

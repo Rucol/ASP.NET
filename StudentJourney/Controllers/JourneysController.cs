@@ -7,15 +7,18 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ContosoJourney.Data;
 using ContosoJourney.Models;
+using StudentJourney.Interfaces;
 
 namespace StudentJourney.Controllers
 {
     public class JourneysController : Controller
     {
         private readonly JourneyContext _context;
+        private readonly IJourneysRepository _journeysRepository;
 
-        public JourneysController(JourneyContext context)
+        public JourneysController(JourneyContext context, IJourneysRepository journeysRepository)
         {
+            _journeysRepository = journeysRepository;
             _context = context;
         }
 
@@ -24,7 +27,7 @@ namespace StudentJourney.Controllers
         public async Task<IActionResult> Index()
         {
             // Pobierz listę wszystkich podróży z bazy danych
-            var journeys = await _context.Journeys.ToListAsync();
+            var journeys = await _journeysRepository.GetAllJourneys();
 
             // Jeśli nie ma żadnych podróży, załaduj przykładowe dane
             if (journeys.Count == 0)
@@ -41,11 +44,13 @@ namespace StudentJourney.Controllers
                 };
 
                 // Dodaj przykładowe podróże do bazy danych
-                _context.Journeys.AddRange(sampleJourneys);
-                await _context.SaveChangesAsync();
+                foreach (var journey in sampleJourneys)
+                {
+                    await _journeysRepository.AddExamples(journey);
+                }
 
                 // Ponownie pobierz listę podróży
-                journeys = await _context.Journeys.ToListAsync();
+                journeys = await _journeysRepository.GetAllJourneys();
             }
 
             // Przekaż listę podróży do widoku
@@ -61,8 +66,7 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var journey = await _context.Journeys
-                .FirstOrDefaultAsync(m => m.JourneyID == id);
+            var journey = await _journeysRepository.ShowDetails(id);
             if (journey == null)
             {
                 return NotFound();
@@ -86,9 +90,7 @@ namespace StudentJourney.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(journey);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                _journeysRepository.CreateJourney(journey);
             }
             return View(journey);
         }
@@ -101,7 +103,7 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var journey = await _context.Journeys.FindAsync(id);
+            var journey = await _journeysRepository.EditJourney(id);
             if (journey == null)
             {
                 return NotFound();
@@ -125,8 +127,7 @@ namespace StudentJourney.Controllers
             {
                 try
                 {
-                    _context.Update(journey);
-                    await _context.SaveChangesAsync();
+                    _journeysRepository.PostEditJourney(journey);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -152,8 +153,7 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var journey = await _context.Journeys
-                .FirstOrDefaultAsync(m => m.JourneyID == id);
+            var journey = await _journeysRepository.GetDelete(id);
             if (journey == null)
             {
                 return NotFound();
@@ -167,13 +167,11 @@ namespace StudentJourney.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var journey = await _context.Journeys.FindAsync(id);
+            var journey = await _journeysRepository.EditJourney(id);
             if (journey != null)
             {
-                _context.Journeys.Remove(journey);
+                await _journeysRepository.Delete(journey);
             }
-
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

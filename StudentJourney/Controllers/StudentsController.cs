@@ -7,23 +7,29 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ContosoJourney.Data;
 using ContosoJourney.Models;
+using StudentJourney.Repository;
+using StudentJourney.Interfaces;
 
 namespace StudentJourney.Controllers
 {
     public class StudentsController : Controller
     {
         private readonly JourneyContext _context;
+        private readonly IStudentRepository _studentRepository;
 
-        public StudentsController(JourneyContext context)
+        public StudentsController(JourneyContext context, IStudentRepository studentRepository)
         {
             _context = context;
+            _studentRepository = studentRepository;
         }
 
         // GET: Students
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Students.ToListAsync());
+            var students = await _studentRepository.GetAll();
+            return View(students);
         }
+
 
         // GET: Students/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -33,8 +39,7 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var student = await _context.Students
-                .FirstOrDefaultAsync(m => m.StudentID == id);
+            var student = await _studentRepository.GetDetails(id);
             if (student == null)
             {
                 return NotFound();
@@ -58,8 +63,7 @@ namespace StudentJourney.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(student);
-                await _context.SaveChangesAsync();
+                _studentRepository.Create(student);
                 return RedirectToAction(nameof(Index));
             }
             return View(student);

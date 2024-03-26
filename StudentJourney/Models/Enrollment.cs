@@ -15,5 +15,6 @@ namespace ContosoJourney.Models
         public int TripID { get; set; }
         public Student? Student { get; set; }
         public Journey? Journey { get; set; }
+
     }
 }

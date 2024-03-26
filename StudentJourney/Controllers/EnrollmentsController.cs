@@ -7,23 +7,26 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ContosoJourney.Data;
 using ContosoJourney.Models;
+using StudentJourney.Interfaces;
 
 namespace StudentJourney.Controllers
 {
     public class EnrollmentsController : Controller
     {
         private readonly JourneyContext _context;
+        private readonly IEnrollmentRepository _enrollmentRepo;
 
-        public EnrollmentsController(JourneyContext context)
+        public EnrollmentsController(JourneyContext context, IEnrollmentRepository enrollmentRepo)
         {
+            _enrollmentRepo = enrollmentRepo;
             _context = context;
         }
 
         // GET: Enrollments
         public async Task<IActionResult> Index()
         {
-            var journeyContext = _context.Enrollments.Include(e => e.Student);
-            return View(await journeyContext.ToListAsync());
+            var journeyContext = _enrollmentRepo.GetAllAsync();
+            return View(await journeyContext);
         }
 
         // GET: Enrollments/Details/5
@@ -34,26 +37,26 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var enrollment = await _context.Enrollments
-                .Include(e => e.Student)
-                .FirstOrDefaultAsync(m => m.JourneyID == id);
+            var enrollment = await _enrollmentRepo.FirstOrDefault(id);
             if (enrollment == null)
             {
                 return NotFound();
             }
+            
 
             return View(enrollment);
         }
 
         // GET: Enrollments/Create
-        public IActionResult Create()
+        // GET: Enrollments/Create
+        public async Task<IActionResult> Create()
         {
             // Pobranie listy identyfikatorów studentów
-            var studentIds = _context.Students.Select(s => s.StudentID).ToList();
-            var journeyCost = _context.Journeys.Select(s => s.Cost).ToList();
+            var studentIds = await _enrollmentRepo.StudentsIds();
+            var journeyCost = await _enrollmentRepo.JourneyCost();
 
             // Pobranie listy wszystkich wycieczek
-            var trips = _context.Journeys.ToList();
+            var trips = await _enrollmentRepo.Journeys();
 
             // Przekazanie list do ViewBag, aby można było je użyć w widoku
             ViewBag.StudentID = new SelectList(studentIds);
@@ -63,6 +66,7 @@ namespace StudentJourney.Controllers
 
             return View();
         }
+
 
 
         // POST: Enrollments/Create
@@ -91,12 +95,12 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var enrollment = await _context.Enrollments.FindAsync(id);
+            var enrollment = await _enrollmentRepo.EditJourney(id);
             if (enrollment == null)
             {
                 return NotFound();
             }
-            ViewData["StudentID"] = new SelectList(_context.Students, "ID", "ID", enrollment.StudentID);
+            ViewData["StudentID"] = new SelectList(await _enrollmentRepo.ViewDataStudentId());
             return View(enrollment);
         }
 
@@ -116,12 +120,12 @@ namespace StudentJourney.Controllers
             {
                 try
                 {
-                    _context.Update(enrollment);
-                    await _context.SaveChangesAsync();
+                    await _enrollmentRepo.EditEnrollment(enrollment); // Oczekiwanie na zakończenie operacji asynchronicznej
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!EnrollmentExists(enrollment.JourneyID))
+                    var enrollmentExists = await EnrollmentExists(enrollment.JourneyID); // Oczekiwanie na zakończenie operacji asynchronicznej
+                    if (!enrollmentExists)
                     {
                         return NotFound();
                     }
@@ -132,9 +136,10 @@ namespace StudentJourney.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["StudentID"] = new SelectList(_context.Students, "ID", "ID", enrollment.StudentID);
+            ViewData["StudentID"] = new SelectList(await _enrollmentRepo.ViewDataStudentId());
             return View(enrollment);
         }
+
 
         // GET: Enrollments/Delete/5
         public async Task<IActionResult> Delete(int? id)
@@ -144,9 +149,7 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var enrollment = await _context.Enrollments
-                .Include(e => e.Student)
-                .FirstOrDefaultAsync(m => m.JourneyID == id);
+            var enrollment = await _enrollmentRepo.DeleteById(id);
             if (enrollment == null)
             {
                 return NotFound();
@@ -158,21 +161,23 @@ namespace StudentJourney.Controllers
         // POST: Enrollments/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var enrollment = await _context.Enrollments.FindAsync(id);
+            var enrollment = await _enrollmentRepo.DeleteEnrollement(id);
             if (enrollment != null)
             {
-                _context.Enrollments.Remove(enrollment);
+                _enrollmentRepo.RemoveEnrollement(id);
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool EnrollmentExists(int id)
+        private async Task<bool> EnrollmentExists(int id)
         {
-            return _context.Enrollments.Any(e => e.JourneyID == id);
+            var enrollment = await _enrollmentRepo.GetEnrollmentIfExists(id);
+            return enrollment != null;
         }
+
     }
 }
