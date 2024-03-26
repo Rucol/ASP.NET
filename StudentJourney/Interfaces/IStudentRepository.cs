@@ -7,6 +7,8 @@ namespace StudentJourney.Interfaces
         Task<List<Student>> GetAll();
         Task<Student> GetDetails(int? id);
         Task<Student> Create(Student student);
- 
+        Task<Student> FindStudentAsync(int? id); 
+        Task<Student> PostEdit(Student student);
+        Task<Student> DeleteStudent(Student student);
     }
 }

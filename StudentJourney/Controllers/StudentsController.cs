@@ -77,13 +77,14 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var student = await _context.Students.FindAsync(id);
+            var student = await _studentRepository.FindStudentAsync(id);
             if (student == null)
             {
                 return NotFound();
             }
             return View(student);
         }
+
 
         // POST: Students/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -101,8 +102,7 @@ namespace StudentJourney.Controllers
             {
                 try
                 {
-                    _context.Update(student);
-                    await _context.SaveChangesAsync();
+                    _studentRepository.PostEdit(student);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -128,8 +128,7 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var student = await _context.Students
-                .FirstOrDefaultAsync(m => m.StudentID == id);
+            var student = await _studentRepository.GetDetails(id);
             if (student == null)
             {
                 return NotFound();
@@ -143,10 +142,10 @@ namespace StudentJourney.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var student = await _context.Students.FindAsync(id);
+            var student = await _studentRepository.FindStudentAsync(id);
             if (student != null)
             {
-                _context.Students.Remove(student);
+                await _studentRepository.DeleteStudent(student);
             }
 
             await _context.SaveChangesAsync();
