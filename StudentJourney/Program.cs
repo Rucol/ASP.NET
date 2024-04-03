@@ -9,6 +9,7 @@ using ContosoUniversity.Data;
 using Microsoft.EntityFrameworkCore;
 using StudentJourney.Interfaces;
 using StudentJourney.Repository;
+using StudentJourney.Services;
 
 namespace ContosoJourney
 {
@@ -29,6 +30,9 @@ namespace ContosoJourney
             builder.Services.AddScoped<IEnrollmentRepository, EnrollmentsRepository>();
             builder.Services.AddScoped<IJourneysRepository, JourneysRepository>();
             builder.Services.AddScoped<IStudentRepository, StudentsRepository>();
+            builder.Services.AddScoped<IStudentService, StudentService>();
+            builder.Services.AddScoped<IJourneyService, JourneyService>();
+            builder.Services.AddScoped<IEnrollmentService, EnrollmentService>();
 
             var app = builder.Build();
 

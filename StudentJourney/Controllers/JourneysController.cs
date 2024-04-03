@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using ContosoJourney.Data;
 using ContosoJourney.Models;
 using StudentJourney.Interfaces;
+using StudentJourney.Services;
 
 namespace StudentJourney.Controllers
 {
@@ -15,17 +16,19 @@ namespace StudentJourney.Controllers
     {
         private readonly JourneyContext _context;
         private readonly IJourneysRepository _journeysRepository;
+        private readonly IJourneyService _journeyService;
 
-        public JourneysController(JourneyContext context, IJourneysRepository journeysRepository)
+        public JourneysController(JourneyContext context, IJourneysRepository journeysRepository, IJourneyService journeyService)
         {
             _journeysRepository = journeysRepository;
             _context = context;
+            _journeyService = journeyService;
         }
         // GET: Journeys
         public async Task<IActionResult> Index()
         {
             // Pobierz listę wszystkich podróży z bazy danych
-            var journeys = await _journeysRepository.GetAllJourneys();
+            var journeys = await _journeyService.GetAllJourneys();
 
             // Jeśli nie ma żadnych podróży, załaduj przykładowe dane
             if (journeys.Count == 0)
@@ -64,7 +67,7 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var journey = await _journeysRepository.ShowDetails(id);
+            var journey = await _journeyService.GetJourneyDetails(id);
             if (journey == null)
             {
                 return NotFound();
@@ -88,7 +91,8 @@ namespace StudentJourney.Controllers
         {
             if (ModelState.IsValid)
             {
-                _journeysRepository.CreateJourney(journey);
+                await _journeyService.CreateJourney(journey);
+                return RedirectToAction(nameof(Index));
             }
             return View(journey);
         }
@@ -125,7 +129,7 @@ namespace StudentJourney.Controllers
             {
                 try
                 {
-                    _journeysRepository.PostEditJourney(journey);
+                    await _journeyService.UpdateJourney(journey);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -163,13 +167,9 @@ namespace StudentJourney.Controllers
         // POST: Journeys/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var journey = await _journeysRepository.EditJourney(id);
-            if (journey != null)
-            {
-                await _journeysRepository.Delete(journey);
-            }
+            await _journeyService.DeleteJourney(id);
             return RedirectToAction(nameof(Index));
         }
 

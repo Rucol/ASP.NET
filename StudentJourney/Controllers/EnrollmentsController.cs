@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using ContosoJourney.Data;
 using ContosoJourney.Models;
 using StudentJourney.Interfaces;
+using StudentJourney.Services;
 
 namespace StudentJourney.Controllers
 {
@@ -15,18 +16,20 @@ namespace StudentJourney.Controllers
     {
         private readonly JourneyContext _context;
         private readonly IEnrollmentRepository _enrollmentRepo;
+        private readonly IEnrollmentService _enrollmentService;
 
-        public EnrollmentsController(JourneyContext context, IEnrollmentRepository enrollmentRepo)
+        public EnrollmentsController(JourneyContext context, IEnrollmentRepository enrollmentRepo, IEnrollmentService enrollmentService)
         {
             _enrollmentRepo = enrollmentRepo;
             _context = context;
+            _enrollmentService = enrollmentService;
         }
 
         // GET: Enrollments
         public async Task<IActionResult> Index()
         {
-            var journeyContext = _enrollmentRepo.GetAllAsync();
-            return View(await journeyContext);
+            var enrollments = await _enrollmentService.GetAllEnrollments();
+            return View(enrollments);
         }
 
         // GET: Enrollments/Details/5
@@ -37,7 +40,7 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var enrollment = await _enrollmentRepo.FirstOrDefault(id);
+            var enrollment = await _enrollmentService.GetEnrollmentDetails(id);
             if (enrollment == null)
             {
                 return NotFound();
@@ -46,8 +49,6 @@ namespace StudentJourney.Controllers
 
             return View(enrollment);
         }
-
-        // GET: Enrollments/Create
         // GET: Enrollments/Create
         public async Task<IActionResult> Create()
         {
@@ -79,7 +80,7 @@ namespace StudentJourney.Controllers
             if (ModelState.IsValid)
             {
                 _context.Add(enrollment);
-                await _context.SaveChangesAsync();
+                await _enrollmentService.CreateEnrollment(enrollment);
                 return RedirectToAction(nameof(Index));
             }
             ViewData["StudentID"] = new SelectList(_context.Students, "ID", "ID", enrollment.StudentID);
@@ -120,11 +121,11 @@ namespace StudentJourney.Controllers
             {
                 try
                 {
-                    await _enrollmentRepo.EditEnrollment(enrollment); // Oczekiwanie na zakończenie operacji asynchronicznej
+                    await _enrollmentService.UpdateEnrollment(enrollment); 
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    var enrollmentExists = await EnrollmentExists(enrollment.JourneyID); // Oczekiwanie na zakończenie operacji asynchronicznej
+                    var enrollmentExists = await EnrollmentExists(enrollment.JourneyID);
                     if (!enrollmentExists)
                     {
                         return NotFound();
@@ -167,7 +168,7 @@ namespace StudentJourney.Controllers
             var enrollment = await _enrollmentRepo.DeleteEnrollement(id);
             if (enrollment != null)
             {
-                _enrollmentRepo.RemoveEnrollement(id);
+                await _enrollmentService.DeleteEnrollment(id);
             }
 
             return RedirectToAction(nameof(Index));

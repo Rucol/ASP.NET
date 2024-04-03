@@ -9,6 +9,7 @@ using ContosoJourney.Data;
 using ContosoJourney.Models;
 using StudentJourney.Repository;
 using StudentJourney.Interfaces;
+using StudentJourney.Services;
 
 namespace StudentJourney.Controllers
 {
@@ -16,17 +17,19 @@ namespace StudentJourney.Controllers
     {
         private readonly JourneyContext _context;
         private readonly IStudentRepository _studentRepository;
+        private readonly IStudentService _studentService;
 
-        public StudentsController(JourneyContext context, IStudentRepository studentRepository)
+        public StudentsController(JourneyContext context, IStudentRepository studentRepository, IStudentService studentService)
         {
             _context = context;
             _studentRepository = studentRepository;
+            _studentService = studentService;
         }
 
         // GET: Students
         public async Task<IActionResult> Index()
         {
-            var students = await _studentRepository.GetAll();
+            var students = await _studentService.GetAllStudents();
             return View(students);
         }
 
@@ -34,17 +37,7 @@ namespace StudentJourney.Controllers
         // GET: Students/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var student = await _studentRepository.GetDetails(id);
-            if (student == null)
-            {
-                return NotFound();
-            }
-
+            var student = await _studentService.GetStudentDetails(id);
             return View(student);
         }
 
@@ -63,7 +56,7 @@ namespace StudentJourney.Controllers
         {
             if (ModelState.IsValid)
             {
-                _studentRepository.Create(student);
+                await _studentService.CreateStudent(student);
                 return RedirectToAction(nameof(Index));
             }
             return View(student);
@@ -77,13 +70,14 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var student = await _studentRepository.FindStudent(id);
+            var student = await _studentRepository.FindStudentAsync(id);
             if (student == null)
             {
                 return NotFound();
             }
             return View(student);
         }
+
 
         // POST: Students/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -99,43 +93,17 @@ namespace StudentJourney.Controllers
 
             if (ModelState.IsValid)
             {
-                try
-                {
-                    _context.Update(student);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!StudentExists(student.StudentID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
+                await _studentService.UpdateStudent(student);
                 return RedirectToAction(nameof(Index));
             }
             return View(student);
         }
 
         // GET: Students/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var student = await _context.Students
-                .FirstOrDefaultAsync(m => m.StudentID == id);
-            if (student == null)
-            {
-                return NotFound();
-            }
-
-            return View(student);
+            await _studentService.DeleteStudent(id);
+            return RedirectToAction(nameof(Index));
         }
 
         // POST: Students/Delete/5
@@ -143,10 +111,10 @@ namespace StudentJourney.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var student = await _context.Students.FindAsync(id);
+            var student = await _studentRepository.FindStudentAsync(id);
             if (student != null)
             {
-                _context.Students.Remove(student);
+                await _studentRepository.DeleteStudent(student);
             }
 
             await _context.SaveChangesAsync();

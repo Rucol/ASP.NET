@@ -54,14 +54,6 @@ namespace StudentJourney.Repository
             _context.Journeys.Remove(journey);
             await _context.SaveChangesAsync();
         }
-
-
-
-
-
-
-
-
     }
 
 }

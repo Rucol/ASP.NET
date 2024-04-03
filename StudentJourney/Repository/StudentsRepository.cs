@@ -23,6 +23,7 @@ namespace StudentJourney.Repository
         {
             return await _context.Students
                 .FirstOrDefaultAsync(m => m.StudentID == id);
+
         }
         public async Task<Student> Create(Student student)
         {
@@ -30,11 +31,24 @@ namespace StudentJourney.Repository
             await _context.SaveChangesAsync();
             return student;
         }
-        public async Task<Student> FindStudent(int? id)
+
+        public async Task<Student> FindStudentAsync(int? id)
         {
             return await _context.Students.FindAsync(id);
         }
+        public async Task<Student> PostEdit(Student student)
+        {
+            _context.Update(student);
+            await _context.SaveChangesAsync();
 
+            return student;
+        }
+        public async Task<Student> DeleteStudent(Student student)
+        {
+            _context.Students.Remove(student);
+            await _context.SaveChangesAsync();
+            return null;
+        }
 
     }
 }
