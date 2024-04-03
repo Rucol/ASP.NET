@@ -7,6 +7,8 @@ namespace StudentJourney.Interfaces
         Task<List<Student>> GetAll();
         Task<Student> GetDetails(int? id);
         Task<Student> Create(Student student);
+        Task<Student> FindStudent(int? id);
+        
  
     }
 }

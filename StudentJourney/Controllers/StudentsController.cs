@@ -77,7 +77,7 @@ namespace StudentJourney.Controllers
                 return NotFound();
             }
 
-            var student = await _context.Students.FindAsync(id);
+            var student = await _studentRepository.FindStudent(id);
             if (student == null)
             {
                 return NotFound();

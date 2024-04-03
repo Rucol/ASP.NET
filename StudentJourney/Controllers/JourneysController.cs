@@ -21,8 +21,6 @@ namespace StudentJourney.Controllers
             _journeysRepository = journeysRepository;
             _context = context;
         }
-
-        // GET: Journeys
         // GET: Journeys
         public async Task<IActionResult> Index()
         {

@@ -30,6 +30,11 @@ namespace StudentJourney.Repository
             await _context.SaveChangesAsync();
             return student;
         }
-      
+        public async Task<Student> FindStudent(int? id)
+        {
+            return await _context.Students.FindAsync(id);
+        }
+
+
     }
 }
