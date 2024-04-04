@@ -1,0 +1,1 @@
+Przerobić serwisy oraz repozytoria. W repozytoriach mają być proste operacje typu get all. W serwisie np sortowanie, filtrowanie.
