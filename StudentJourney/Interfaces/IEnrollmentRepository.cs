@@ -10,7 +10,7 @@ namespace StudentJourney.Interfaces
     {
         Task<List<Enrollment>> GetAllAsync();
         Task<Enrollment> FirstOrDefault(int? id);
-        Task<List<int>> StudentsIds();
+        Task<List<Student>> StudentsIds();
         Task<List<int>> JourneyCost();
         Task<List<Journey>> Journeys();
         Task<Enrollment> EditJourney(int? id);

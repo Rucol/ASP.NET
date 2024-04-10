@@ -31,11 +31,9 @@ public class EnrollmentsRepository : IEnrollmentRepository
             .Include(e => e.Student)
             .FirstOrDefaultAsync(m => m.JourneyID == id); 
     }
-    public async Task<List<int>> StudentsIds()
+    public async Task<List<Student>> StudentsIds()
     {
-        return await _context.Students
-                            .Select(s => s.StudentID)
-                            .ToListAsync();
+        return await _context.Students.ToListAsync();
     }
     public async Task<List<int>> JourneyCost()
     {
@@ -43,7 +41,7 @@ public class EnrollmentsRepository : IEnrollmentRepository
     }
     public async Task<List<Journey>> Journeys()
     {
-        return _context.Journeys.ToList();
+        return await _context.Journeys.ToListAsync();
     }
     public Task<Enrollment> EditJourney(int? id)
     {

@@ -1,4 +1,4 @@
-﻿@model ContosoJourney.Models.Enrollment
+﻿@model StudentJourney.ViewModels.EnrollmentViewModel
 
 @{
     ViewData["Title"] = "Delete";
@@ -11,44 +11,32 @@
     <h4>Enrollment</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TripID)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TripID)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Student)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Student.StudentID)
-        </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Journey)
+            Student ID
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Journey.TripName)
+            @Html.DisplayFor(model => model.StudentID)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Journey)
+            Student Name
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Journey.Cost)
+            @Html.DisplayFor(model => model.StudentName)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Journey)
+            Trip Name
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Journey.JourneyDuration)
+            @Html.DisplayFor(model => model.TripName)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Journey)
+            Cost
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Journey.JourneyDate)
+            @Html.DisplayFor(model => model.Cost)
         </dd>
     </dl>
-    
+
     <form asp-action="Delete">
         <input type="hidden" asp-for="JourneyID" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |

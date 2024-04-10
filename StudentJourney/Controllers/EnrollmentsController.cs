@@ -9,6 +9,7 @@ using ContosoJourney.Data;
 using ContosoJourney.Models;
 using StudentJourney.Interfaces;
 using StudentJourney.Services;
+using StudentJourney.ViewModels;
 
 namespace StudentJourney.Controllers
 {
@@ -29,8 +30,13 @@ namespace StudentJourney.Controllers
         public async Task<IActionResult> Index()
         {
             var enrollments = await _enrollmentService.GetAllEnrollments();
-            return View(enrollments);
+            var studentIds = await _enrollmentRepo.StudentsIds();
+            var journeys = await _enrollmentRepo.Journeys();
+
+            var enrollmentViewModels = enrollments.Select(e => EnrollmentViewModel.FromEnrollment(e, studentIds, journeys));
+            return View(enrollmentViewModels);
         }
+
 
         // GET: Enrollments/Details/5
         public async Task<IActionResult> Details(int? id)
