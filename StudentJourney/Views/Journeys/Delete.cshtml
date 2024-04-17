@@ -1,4 +1,4 @@
-﻿@model ContosoJourney.Models.Journey
+﻿@model StudentJourney.ViewModels.JourneyViewModel
 
 @{
     ViewData["Title"] = "Delete";
@@ -11,16 +11,16 @@
     <h4>Journey</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.TripName)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.TripName)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Cost)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Cost)
         </dd>
         <dt class="col-sm-2">
@@ -30,7 +30,7 @@
             @Html.DisplayFor(model => model.JourneyID)
         </dd>
     </dl>
-    
+
     <form asp-action="Delete">
         <input type="hidden" asp-for="JourneyID" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |

@@ -1,4 +1,4 @@
-﻿@model ContosoJourney.Models.Enrollment
+﻿@model StudentJourney.ViewModels.EnrollmentViewModel
 
 @{
     ViewData["Title"] = "Create";
@@ -12,28 +12,27 @@
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-           <div class="form-group">
+            <div class="form-group">
                 <label asp-for="StudentID" class="control-label"></label>
-                <select asp-for="StudentID" class="form-control" asp-items="ViewBag.StudentID"></select>
+                <input asp-for="StudentID" class="form-control"></input>
             </div>
-           
+
             <div class="form-group">
-                <label asp-for="Journey.TripName" class="control-label"></label>
-                <input asp-for="Journey.TripName" class="form-control"  />
+                <label asp-for="TripName" class="control-label"></label>
+                <input asp-for="TripName" class="form-control"></input>
             </div>
+
             <div class="form-group">
-                <label asp-for="Journey.Cost" class="control-label"></label>
-                <input asp-for="Journey.Cost" class="form-control"  />
+                <label asp-for="Cost" class="control-label"></label>
+                <input asp-for="Cost" class="form-control" />
             </div>
+
             <div class="form-group">
-                <label asp-for="Journey.JourneyDuration" class="control-label"></label>
-                <input asp-for="Journey.JourneyDuration" class="form-control"  />
+                <label asp-for="JourneyID" class="control-label"></label>
+                <input asp-for="JourneyID" class="form-control" />
             </div>
-            <div class="form-group">
-                <label asp-for="Journey.JourneyDate" class="control-label"></label>
-                <input asp-for="Journey.JourneyDate" class="form-control"  />
-            </div>
-            <!-- Koniec dodanych pól z klasy Journey -->
+
+            
 
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
@@ -47,5 +46,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
