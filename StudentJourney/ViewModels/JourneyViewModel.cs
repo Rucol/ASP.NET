@@ -1,8 +1,10 @@
-﻿using Humanizer;
+﻿using ContosoJourney.Models;
+using Humanizer;
 using System.ComponentModel.DataAnnotations;
 
 namespace StudentJourney.ViewModels
 {
+    
     public class JourneyViewModel
     {
         public int JourneyID { get; set; }
@@ -16,5 +18,16 @@ namespace StudentJourney.ViewModels
         public int Cost { get; set; }
         public DateTime JourneyDate { get; set; }
         public int JourneyDuration { get; set; }
+        public Journey ToJourney()
+        {
+            return new Journey
+            {
+                TripName = this.TripName,
+                Cost = this.Cost,
+                JourneyDate = this.JourneyDate,
+                JourneyDuration = this.JourneyDuration
+            };
+        }
+
     }
 }

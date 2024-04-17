@@ -8,6 +8,11 @@ using StudentJourney.Interfaces;
 using StudentJourney.Services;
 using Microsoft.EntityFrameworkCore;
 using StudentJourney.ViewModels;
+using FluentValidation;
+using FluentValidation.Results;
+using StudentJourney.Extensions;
+using AutoMapper;
+
 
 namespace StudentJourney.Controllers
 {
@@ -16,12 +21,16 @@ namespace StudentJourney.Controllers
         private readonly JourneyContext _context;
         private readonly IJourneysRepository _journeysRepository;
         private readonly IJourneyService _journeyService;
+        private readonly JourneyValidator _journeyValidator;
+        private readonly IMapper _mapper;
 
-        public JourneysController(JourneyContext context, IJourneysRepository journeysRepository, IJourneyService journeyService)
+        public JourneysController(JourneyContext context, IJourneysRepository journeysRepository, IJourneyService journeyService, IMapper mapper)
         {
             _context = context;
             _journeysRepository = journeysRepository;
             _journeyService = journeyService;
+            _journeyValidator = new JourneyValidator();
+            _mapper = mapper;
         }
 
         // GET: Journeys
@@ -100,22 +109,36 @@ namespace StudentJourney.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("JourneyID,TripName,Cost,JourneyDate,JourneyDuration")] JourneyViewModel journeyViewModel)
         {
-            if (ModelState.IsValid)
-            {
-                var journey = new Journey
-                {
-                    JourneyID = journeyViewModel.JourneyID,
-                    TripName = journeyViewModel.TripName,
-                    Cost = journeyViewModel.Cost,
-                    JourneyDate = journeyViewModel.JourneyDate,
-                    JourneyDuration = journeyViewModel.JourneyDuration
-                };
+            // Konwersja JourneyViewModel na Journey
+            var journey = _mapper.Map<Journey>(journeyViewModel);
 
+            // Walidacja obiektu Journey
+            ValidationResult validationResult = _journeyValidator.Validate(journey);
+
+            if (validationResult.IsValid)
+            {
                 await _journeyService.CreateJourney(journey);
                 return RedirectToAction(nameof(Index));
             }
-            return View(journeyViewModel);
+            else
+            {
+                // Jeśli walidacja nie powiedzie się, dodaj błędy do ModelState i zwróć widok z błędami walidacji
+
+                // Konwertuj z powrotem Journey na JourneyViewModel
+                JourneyViewModel viewModel = journey.ToJourneyViewModel();
+
+                foreach (var error in validationResult.Errors)
+                {
+                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                }
+
+                return View(viewModel);
+            }
         }
+
+
+
+
         // GET: Journeys/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -154,6 +177,7 @@ namespace StudentJourney.Controllers
 
             if (ModelState.IsValid)
             {
+                var journey = _mapper.Map<Journey>(journeyViewModel);
                 var journey = new Journey
                 {
                     JourneyID = journeyViewModel.JourneyID,

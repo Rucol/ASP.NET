@@ -10,6 +10,10 @@ using Microsoft.EntityFrameworkCore;
 using StudentJourney.Interfaces;
 using StudentJourney.Repository;
 using StudentJourney.Services;
+using FluentValidation.AspNetCore;
+using ContosoJourney.Models;
+using AutoMapper;
+
 
 namespace ContosoJourney
 {
@@ -33,6 +37,14 @@ namespace ContosoJourney
             builder.Services.AddScoped<IStudentService, StudentService>();
             builder.Services.AddScoped<IJourneyService, JourneyService>();
             builder.Services.AddScoped<IEnrollmentService, EnrollmentService>();
+
+            builder.Services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<EnrollmentValidator>());
+            builder.Services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<JourneyValidator>());
+            builder.Services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<StudentValidator>());
+
+            builder.Services.AddAutoMapper(typeof(Journey));
+            builder.Services.AddAutoMapper(typeof(Enrollment));
+            builder.Services.AddAutoMapper(typeof(Student));
 
             var app = builder.Build();
 

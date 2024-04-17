@@ -10,20 +10,26 @@ using ContosoJourney.Models;
 using StudentJourney.Interfaces;
 using StudentJourney.Services;
 using StudentJourney.ViewModels;
+using FluentValidation.Results;
+using AutoMapper;
 
 namespace StudentJourney.Controllers
 {
     public class EnrollmentsController : Controller
     {
+        private readonly IMapper _mapper;
         private readonly JourneyContext _context;
         private readonly IEnrollmentRepository _enrollmentRepo;
         private readonly IEnrollmentService _enrollmentService;
+        private readonly EnrollmentValidator _enrollmentValidator;
 
-        public EnrollmentsController(JourneyContext context, IEnrollmentRepository enrollmentRepo, IEnrollmentService enrollmentService)
+        public EnrollmentsController(JourneyContext context, IEnrollmentRepository enrollmentRepo, IEnrollmentService enrollmentService, IMapper mapper)
         {
             _enrollmentRepo = enrollmentRepo;
             _context = context;
             _enrollmentService = enrollmentService;
+            _enrollmentValidator = new EnrollmentValidator();
+            _mapper = mapper;
         }
 
         // GET: Enrollments
@@ -77,23 +83,38 @@ namespace StudentJourney.Controllers
 
 
         // POST: Enrollments/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("JourneyID,StudentID,TripID")] Enrollment enrollment)
+        public async Task<IActionResult> Create([Bind("JourneyID,StudentID,TripID")] EnrollmentViewModel enrollmentViewModel)
         {
-            if (ModelState.IsValid)
+            var enrollment = _mapper.Map<Enrollment>(enrollmentViewModel);
+            ValidationResult validationResult = _enrollmentValidator.Validate(enrollment); // Walidacja obiektu Enrollment
+
+            if (validationResult.IsValid)
             {
                 _context.Add(enrollment);
                 await _enrollmentService.CreateEnrollment(enrollment);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["StudentID"] = new SelectList(_context.Students, "ID", "ID", enrollment.StudentID);
-            ViewData["TripID"] = new SelectList(_context.Journeys, "JourneyID", "TripName", enrollment.TripID);
-            return View(enrollment);
-        }
+            else
+            {
+                // Jeśli walidacja nie powiedzie się, zwróć widok z błędami walidacji
+                foreach (var error in validationResult.Errors)
+                {
+                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                }
 
+                // Pobierz ponownie listy studentów i wycieczek, aby można było je wyświetlić w widoku
+                var studentIds = await _enrollmentRepo.StudentsIds();
+                var trips = await _enrollmentRepo.Journeys();
+
+                ViewBag.StudentID = new SelectList(studentIds);
+                ViewBag.TripID = new SelectList(trips, "JourneyID", "TripName");
+                ViewBag.trips = new SelectList(trips);
+
+                return View(enrollment);
+            }
+        }
         // GET: Enrollments/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

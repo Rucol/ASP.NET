@@ -98,7 +98,9 @@ namespace StudentJourney.Controllers
                 await _studentService.CreateStudent(student);
                 return RedirectToAction(nameof(Index));
             }
-            return View(studentViewModel);
+
+            // Jeśli ModelState nie jest poprawny, przekaż błędy walidacji z powrotem do widoku
+            return View(studentViewModel); // Dodaj ten wiersz
         }
 
         // GET: Students/Edit/5
@@ -154,6 +156,8 @@ namespace StudentJourney.Controllers
                 await _studentService.UpdateStudent(student);
                 return RedirectToAction(nameof(Index));
             }
+
+            // Jeśli ModelState nie jest poprawny, przekaż błędy walidacji z powrotem do widoku
             return View(studentViewModel);
         }
 

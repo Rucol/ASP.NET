@@ -506,3 +506,8 @@ C:\Users\x390\Desktop\Semestr 6\ASP.NET\StudentJourney\obj\Debug\net8.0\refint\S
 C:\Users\x390\Desktop\Semestr 6\ASP.NET\StudentJourney\obj\Debug\net8.0\StudentJourney.pdb
 C:\Users\x390\Desktop\Semestr 6\ASP.NET\StudentJourney\obj\Debug\net8.0\StudentJourney.genruntimeconfig.cache
 C:\Users\x390\Desktop\Semestr 6\ASP.NET\StudentJourney\obj\Debug\net8.0\ref\StudentJourney.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\obj\Debug\net8.0\StudentJourney.MvcApplicationPartsAssemblyInfo.cs
