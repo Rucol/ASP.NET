@@ -511,3 +511,13 @@ C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\F
 C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\obj\Debug\net8.0\StudentJourney.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\CopilotDev.NET.Api.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll

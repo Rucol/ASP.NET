@@ -177,7 +177,7 @@ namespace StudentJourney.Controllers
 
             if (ModelState.IsValid)
             {
-                var journey = _mapper.Map<Journey>(journeyViewModel);
+                
                 var journey = new Journey
                 {
                     JourneyID = journeyViewModel.JourneyID,

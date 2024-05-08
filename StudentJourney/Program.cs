@@ -13,6 +13,8 @@ using StudentJourney.Services;
 using FluentValidation.AspNetCore;
 using ContosoJourney.Models;
 using AutoMapper;
+using Microsoft.AspNetCore.Identity;
+
 
 
 namespace ContosoJourney
@@ -45,6 +47,17 @@ namespace ContosoJourney
             builder.Services.AddAutoMapper(typeof(Journey));
             builder.Services.AddAutoMapper(typeof(Enrollment));
             builder.Services.AddAutoMapper(typeof(Student));
+
+            builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+            {
+                options.SignIn.RequireConfirmedAccount = false;
+            })
+            .AddRoles<IdentityRole>()
+            .AddEntityFrameworkStores<JourneyContext>()
+            .AddDefaultTokenProviders()
+            .AddClaimsPrincipalFactory<UserClaimsPrincipalFactory<IdentityUser>>();
+
+
 
             var app = builder.Build();
 
