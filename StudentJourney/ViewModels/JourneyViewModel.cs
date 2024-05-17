@@ -1,5 +1,4 @@
 ﻿using ContosoJourney.Models;
-using Humanizer;
 using System.ComponentModel.DataAnnotations;
 
 namespace StudentJourney.ViewModels

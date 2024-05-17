@@ -1,9 +1,13 @@
 ﻿using ContosoJourney.Models;
+using ContosoUniversity.Data;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace ContosoJourney.Data
 {
-    public class JourneyContext : DbContext
+    
+    public class JourneyContext : IdentityDbContext<IdentityUser>
     {
         public JourneyContext(DbContextOptions<JourneyContext> options) : base(options)
         {

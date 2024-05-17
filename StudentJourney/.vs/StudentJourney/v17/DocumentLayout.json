@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\studentjourney.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:studentjourney.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\viewmodels\\journeyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:viewmodels\\journeyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\data\\journeycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:data\\journeycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\data\\journeycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:data\\journeycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\controllers\\journeyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\studentjourney.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:studentjourney.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -59,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -73,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\extensions\\journeyextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:extensions\\journeyextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\viewmodels\\journeyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|solutionrelative:viewmodels\\journeyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D1FA9AC-64D5-43CB-A412-F5E6EE032342}|StudentJourney.csproj|c:\\users\\xentri\\onedrive\\pulpit\\studia\\asp.net\\studentjourney\\views\\journeys\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -214,76 +222,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "JourneysController.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\JourneysController.cs",
-              "RelativeDocumentMoniker": "Controllers\\JourneysController.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\JourneysController.cs",
-              "RelativeToolTip": "Controllers\\JourneysController.cs",
-              "ViewState": "AQIAAKEAAAAAAAAAAAAwwLMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T14:46:34.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAkwD0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:55:44.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAACOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-19T12:46:56.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Students\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Create.cshtml",
-              "RelativeToolTip": "Views\\Students\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T14:39:27.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StudentJourney.csproj",
+              "DocumentIndex": 0,
+              "Title": "StudentJourney",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\StudentJourney.csproj",
               "RelativeDocumentMoniker": "StudentJourney.csproj",
               "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\StudentJourney.csproj",
               "RelativeToolTip": "StudentJourney.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-20T19:03:31.605Z",
+              "WhenOpened": "2024-05-17T08:48:50.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "EnrollmentsController.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\EnrollmentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\EnrollmentsController.cs",
@@ -296,111 +252,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADgAAAA5AAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAIBJwDgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-19T12:21:17.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T12:25:16.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "JourneyContext.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Data\\JourneyContext.cs",
-              "RelativeDocumentMoniker": "Data\\JourneyContext.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Data\\JourneyContext.cs",
-              "RelativeToolTip": "Data\\JourneyContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:40:56.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Students.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Students.cs",
-              "RelativeDocumentMoniker": "Models\\Students.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Students.cs",
-              "RelativeToolTip": "Models\\Students.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:36:03.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "ScaffoldingReadMe.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-08T18:37:14.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:49:40.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Journey.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Journey.cs",
-              "RelativeDocumentMoniker": "Models\\Journey.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Journey.cs",
-              "RelativeToolTip": "Models\\Journey.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA6wA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:38:46.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Enrollment.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Enrollment.cs",
-              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Enrollment.cs",
-              "RelativeToolTip": "Models\\Enrollment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBAAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:37:15.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "DBInitializer.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Data\\DBInitializer.cs",
               "RelativeDocumentMoniker": "Data\\DBInitializer.cs",
@@ -413,7 +278,189 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JourneyContext.cs",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Data\\JourneyContext.cs",
+              "RelativeDocumentMoniker": "Data\\JourneyContext.cs",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Data\\JourneyContext.cs",
+              "RelativeToolTip": "Data\\JourneyContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:40:56.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwEAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:55:44.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JourneyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\ViewModels\\JourneyViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\JourneyViewModel.cs",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\ViewModels\\JourneyViewModel.cs",
+              "RelativeToolTip": "ViewModels\\JourneyViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T15:47:05.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "Views\\Students\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:39:27.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAACOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-19T12:46:56.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JourneysController.cs",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\JourneysController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JourneysController.cs",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\JourneysController.cs",
+              "RelativeToolTip": "Controllers\\JourneysController.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAwwLMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T14:46:34.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdministratorController.cs",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\AdministratorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdministratorController.cs",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\AdministratorController.cs",
+              "RelativeToolTip": "Controllers\\AdministratorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:21:23.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:21:58.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T12:25:16.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Students.cs",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Students.cs",
+              "RelativeDocumentMoniker": "Models\\Students.cs",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Students.cs",
+              "RelativeToolTip": "Models\\Students.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:36:03.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-08T18:37:14.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:49:40.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Journey.cs",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Journey.cs",
+              "RelativeDocumentMoniker": "Models\\Journey.cs",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Journey.cs",
+              "RelativeToolTip": "Models\\Journey.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA2wA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:38:46.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:37:15.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
@@ -426,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
@@ -439,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "JourneyExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Extensions\\JourneyExtensions.cs",
               "RelativeDocumentMoniker": "Extensions\\JourneyExtensions.cs",
@@ -452,20 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "JourneyViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\ViewModels\\JourneyViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\JourneyViewModel.cs",
-              "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\ViewModels\\JourneyViewModel.cs",
-              "RelativeToolTip": "ViewModels\\JourneyViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T15:47:05.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Journeys\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Journeys\\Create.cshtml",
@@ -478,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "StudentViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\ViewModels\\StudentViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\StudentViewModel.cs",
@@ -491,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "EnrollmentViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\ViewModels\\EnrollmentViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\EnrollmentViewModel.cs",
@@ -504,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "JourneysRepository.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Repository\\JourneysRepository.cs",
               "RelativeDocumentMoniker": "Repository\\JourneysRepository.cs",
@@ -517,20 +551,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "StudentsRepository.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Repository\\StudentsRepository.cs",
               "RelativeDocumentMoniker": "Repository\\StudentsRepository.cs",
               "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Repository\\StudentsRepository.cs",
               "RelativeToolTip": "Repository\\StudentsRepository.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAMBcwCgAAAAlAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAqwCgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-26T07:41:00.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "EnrollmentsRepository.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Repository\\EnrollmentsRepository.cs",
               "RelativeDocumentMoniker": "Repository\\EnrollmentsRepository.cs",
@@ -543,20 +577,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "EnrollmentService.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Services\\EnrollmentService.cs",
               "RelativeDocumentMoniker": "Services\\EnrollmentService.cs",
               "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Services\\EnrollmentService.cs",
               "RelativeToolTip": "Services\\EnrollmentService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA8wBoAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T14:31:26.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -569,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Interfaces\\IStudentService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IStudentService.cs",
@@ -582,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "Services\\StudentService.cs",
@@ -595,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "IStudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Interfaces\\IStudentRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IStudentRepository.cs",
@@ -608,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "IEnrollmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Interfaces\\IEnrollmentRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IEnrollmentRepository.cs",
@@ -621,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "IJourneysRepository.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Interfaces\\IJourneysRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IJourneysRepository.cs",
@@ -634,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "IEnrollmentService.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Interfaces\\IEnrollmentService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IEnrollmentService.cs",
@@ -647,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "IJourneysService.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Interfaces\\IJourneysService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IJourneysService.cs",
@@ -660,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "JourneyService.cs",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Services\\JourneyService.cs",
               "RelativeDocumentMoniker": "Services\\JourneyService.cs",
@@ -673,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Enrollments\\Index.cshtml",
@@ -686,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Enrollments\\Edit.cshtml",
@@ -699,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Enrollments\\Create.cshtml",
@@ -712,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Index.cshtml",
@@ -725,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Enrollments\\Delete.cshtml",
@@ -738,20 +772,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Enrollments\\Details.cshtml",
               "ToolTip": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Enrollments\\Details.cshtml",
               "RelativeToolTip": "Views\\Enrollments\\Details.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAACBjwB8AAAAQAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBpwB8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-20T13:36:00.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Journeys\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Journeys\\Index.cshtml",
@@ -764,7 +798,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -777,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Edit.cshtml",
@@ -790,7 +824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Journeys\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Journeys\\Delete.cshtml",
@@ -803,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Journeys\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Journeys\\Details.cshtml",
@@ -816,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Journeys\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Journeys\\Edit.cshtml",
@@ -829,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Details.cshtml",
@@ -842,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\Students\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Delete.cshtml",
@@ -855,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -868,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",

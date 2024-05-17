@@ -17,6 +17,7 @@ using Microsoft.AspNetCore.Identity;
 
 
 
+
 namespace ContosoJourney
 {
     public class Program
@@ -53,13 +54,22 @@ namespace ContosoJourney
                 options.SignIn.RequireConfirmedAccount = false;
             })
             .AddRoles<IdentityRole>()
-            .AddEntityFrameworkStores<JourneyContext>()
-            .AddDefaultTokenProviders()
-            .AddClaimsPrincipalFactory<UserClaimsPrincipalFactory<IdentityUser>>();
+            .AddEntityFrameworkStores<JourneyContext>();
+            
+            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+		.AddEntityFrameworkStores<JourneyContext>();
+
+			builder.Services.AddAuthorization(options =>
+			{
+				options.AddPolicy("RequireAdministratorRole",
+					 policy => policy.RequireRole("Administrator"));
+                options.AddPolicy("RequireUserRole",
+                    					 policy => policy.RequireRole("User"));
+			});
 
 
 
-            var app = builder.Build();
+			var app = builder.Build();
 
             using (var scope = app.Services.CreateScope())
             {

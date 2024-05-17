@@ -1,1 +1,0 @@
-Zrobić walidator do modeli, z nugetow pobrać FluentValidation. Zdefiniować reguły walidacji, do pliku program.cs utwórz instancję walidatora. do mapowania użyć AutoMappera. Zainstalować AutoMappera z nugetów i użyć go w projekcie.
