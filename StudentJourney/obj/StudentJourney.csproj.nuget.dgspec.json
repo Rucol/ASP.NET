@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\StudentJourney.csproj": {}
+    "C:\\Users\\x390\\Desktop\\ASP.NET\\ASP.NET\\StudentJourney\\StudentJourney.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\StudentJourney.csproj": {
+    "C:\\Users\\x390\\Desktop\\ASP.NET\\ASP.NET\\StudentJourney\\StudentJourney.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\StudentJourney.csproj",
+        "projectUniqueName": "C:\\Users\\x390\\Desktop\\ASP.NET\\ASP.NET\\StudentJourney\\StudentJourney.csproj",
         "projectName": "StudentJourney",
-        "projectPath": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\StudentJourney.csproj",
-        "packagesPath": "C:\\Users\\Xentri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Xentri\\OneDrive\\Pulpit\\Studia\\ASP.NET\\StudentJourney\\obj\\",
+        "projectPath": "C:\\Users\\x390\\Desktop\\ASP.NET\\ASP.NET\\StudentJourney\\StudentJourney.csproj",
+        "packagesPath": "C:\\Users\\x390\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\x390\\Desktop\\ASP.NET\\ASP.NET\\StudentJourney\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Xentri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\x390\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -97,35 +98,35 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Core": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Templating": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Utils": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.2, )"
             },
             "System.Threading.Tasks": {
               "target": "Package",

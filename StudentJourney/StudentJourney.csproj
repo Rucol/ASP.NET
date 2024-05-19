@@ -21,14 +21,14 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
-		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration" Version="8.0.5" />
-		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts" Version="8.0.5" />
-		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Core" Version="8.0.5" />
-		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.5" />
-		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore" Version="8.0.5" />
-		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating" Version="8.0.5" />
-		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils" Version="8.0.5" />
-		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc" Version="8.0.5" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration" Version="8.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts" Version="5.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore" Version="8.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Core" Version="8.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils" Version="8.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc" Version="8.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating" Version="8.0.2" />
 		<PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
 	</ItemGroup>
 
