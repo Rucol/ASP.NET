@@ -17,135 +17,151 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentJourney
 build_property.RootNamespace = StudentJourney
-build_property.ProjectDir = C:\Users\x390\Desktop\ASP.NET\ASP.NET\StudentJourney\
+build_property.ProjectDir = C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\x390\Desktop\ASP.NET\ASP.NET\StudentJourney
+build_property.MSBuildProjectDirectory = C:\Users\Xentri\OneDrive\Pulpit\Studia\ASP.NET\StudentJourney
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Enrollments/Create.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Enrollments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Enrollments/Delete.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Enrollments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Enrollments/Details.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Enrollments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Enrollments/Edit.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Enrollments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Enrollments/Index.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Enrollments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Home/Index.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Home/Privacy.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Journeys/Create.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Journeys/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5leXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Journeys/Delete.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Journeys/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5leXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Journeys/Details.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Journeys/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5leXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Journeys/Edit.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Journeys/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5leXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Journeys/Index.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Journeys/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5leXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Shared/Error.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Shared/Admin_LayoutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluX0xheW91dFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Shared/General_LayoutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEdlbmVyYWxfTGF5b3V0UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Students/Create.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Students/Delete.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Students/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Students/Details.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Students/Edit.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Students/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Students/Index.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/_ViewImports.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/_ViewStart.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/x390/Desktop/ASP.NET/ASP.NET/StudentJourney/Views/Shared/_Layout.cshtml]
+[C:/Users/Xentri/OneDrive/Pulpit/Studia/ASP.NET/StudentJourney/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-soj2su43al

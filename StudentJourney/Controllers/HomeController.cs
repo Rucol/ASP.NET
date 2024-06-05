@@ -17,12 +17,19 @@ namespace StudentJourney.Controllers
         {
             return View();
         }
+        public IActionResult Login()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
             return View();
         }
-
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
