@@ -16,9 +16,6 @@
 - **Backend:**
   - ASP.NET (C#)
 
-- **Database:**
-  - [Specify the database used, e.g., SQL Server, MySQL]
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -85,7 +82,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## 📞 Contact
 
 For any inquiries or support, please contact Piotr at rucki12@interia.pl
----
-
-*Note: Ensure to replace placeholders like `[Specify the database used, e.g., SQL Server, MySQL]` and `[Your Name]` with actual information relevant to your project.*
 
