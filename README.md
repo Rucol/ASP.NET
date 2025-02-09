@@ -4,7 +4,7 @@
 
 ## 📌 Project Overview
 
-**BikeRentalSystemGr** is a web application designed to facilitate bike rentals. The system allows users to browse available bikes, make reservations, and manage rentals efficiently.
+**BikeRentalSystem** is a web application designed to facilitate bike rentals. The system allows users to browse available bikes, make reservations, and manage rentals efficiently.
 
 ## 🛠 Technologies Used
 
