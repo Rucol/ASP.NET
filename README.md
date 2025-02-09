@@ -1,4 +1,4 @@
-# 🚲 BikeRentalSystemGr2B
+# 🚲 BikeRentalSystem
 
 > A comprehensive **Bike Rental System** developed using **ASP.NET**.
 
