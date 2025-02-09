@@ -4,7 +4,7 @@
 
 ## 📌 Project Overview
 
-**BikeRentalSystemGr2B** is a web application designed to facilitate bike rentals. The system allows users to browse available bikes, make reservations, and manage rentals efficiently.
+**BikeRentalSystemGr** is a web application designed to facilitate bike rentals. The system allows users to browse available bikes, make reservations, and manage rentals efficiently.
 
 ## 🛠 Technologies Used
 
