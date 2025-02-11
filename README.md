@@ -11,7 +11,7 @@
 - **Frontend:**
   - HTML5
   - CSS3
-  - JavaScript
+
 
 - **Backend:**
   - ASP.NET (C#)
